@@ -1,0 +1,22 @@
+
+using System;
+
+namespace ConsoleApp3
+{
+     class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int numberOFUser= Convert.ToInt32(Console. ReadLine());
+            int residualvalue=numberOFUser % 2;
+            if (residualvalue==1)
+            {
+                Console.WriteLine("Ricxvi Kentia");
+            }
+            else 
+            { Console.WriteLine("Ricxvi ar aris kenti"); 
+            }
+        }
+    }
+}
